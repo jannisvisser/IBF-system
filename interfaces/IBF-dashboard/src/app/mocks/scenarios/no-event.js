@@ -13,7 +13,7 @@ export function getEvent() {
   return null;
 }
 
-export function getTriggerPerLeadtime() {
+export function getTriggerPerLeadTime() {
   return {
     '1': '0',
     '2': '0',
@@ -126,7 +126,7 @@ export function getStations() {
 }
 
 export function getAdminRegions() {
-  var result = adminAreaData;
+  var result = JSON.parse(JSON.stringify(adminAreaData)); // Hack to clone without reference
   result.features.forEach((feature) => {
     feature.properties.population_affected = 0;
   });
