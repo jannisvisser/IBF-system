@@ -16,7 +16,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 loggly-python-handler==1.0.0
 lxml==4.6.2
-mailchimp3==3.0.7
+mailchimp3==3.0.14
 MarkupSafe==1.1.1
 munch==2.3.2
 netCDF4==1.5.5.1
